@@ -53,7 +53,7 @@ while ! $CORRECT; do
       
       # Check if this is their best game
       if [[ $GUESS_COUNT -lt $BEST_GAME || -z $BEST_GAME ]]; then
-        NEW_BEST_GAME=$GUESS_COUNT
+        NEW_BEST_GAME=$GUESS_COUNT   
       else
         NEW_BEST_GAME=$BEST_GAME
       fi   
