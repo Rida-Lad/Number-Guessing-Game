@@ -56,7 +56,7 @@ while ! $CORRECT; do
         NEW_BEST_GAME=$GUESS_COUNT
       else
         NEW_BEST_GAME=$BEST_GAME
-      fi
+      fi   
 
       UPDATE_RESULT=$($PSQL "UPDATE users SET games_played=$NEW_GAMES_PLAYED, best_game=$NEW_BEST_GAME WHERE username='$USERNAME'")
     fi
