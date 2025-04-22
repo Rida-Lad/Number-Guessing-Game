@@ -28,3 +28,6 @@ chmod +x number_guess.sh
 
 # 4. Play the game!
 ./number_guess.sh
+```
+## 📜 Certification
+Part of freeCodeCamp's Relational Database Course
