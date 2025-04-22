@@ -17,7 +17,7 @@ A terminal-based guessing game with PostgreSQL integration that tracks player st
 ## 🚀 Quick Start
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/number-guessing-game.git
+git clone https://github.com/Rida-Lad/number-guessing-game.git
 cd number-guessing-game
 
 # 2. Import the database
